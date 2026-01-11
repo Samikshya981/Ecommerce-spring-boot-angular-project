@@ -1,33 +1,35 @@
-🛒 E-Commerce Web Application
+🛒 ##E-Commerce Web Application
 
 Spring Boot | Angular | MySQL
 
-📌 Overview
+📌 #Overview
 
-This project is a full-stack E-Commerce web application built using Spring Boot for the backend, Angular for the frontend, and MySQL for data storage.
+This repository contains a full-stack E-Commerce web application developed using Spring Boot for the backend, Angular for the frontend, and MySQL as the relational database.
 
-The goal of this project was to understand how real-world e-commerce systems work by implementing REST APIs, handling frontend–backend communication, and managing database operations in a structured and scalable way.
+The application is designed following industry-standard practices, with a clear separation of concerns, RESTful API communication, and secure data handling. It simulates core e-commerce workflows such as user authentication, product management, cart operations, and order processing.
 
-🚀 Features
-👤 User
+🚀 #Features
+User Functionality
 
-User registration and login
+Secure user registration and authentication
 
 Browse products by category
 
-Add products to cart
+Add products to cart and manage cart items
 
 Place orders and view order history
 
-🛠️ Admin
+Admin Functionality
 
-Manage products and categories
+Create, update, and delete products
 
-Manage user orders
+Manage product categories
 
-View and manage registered users
+View and manage customer orders
 
-🧱 Tech Stack
+Manage registered users
+
+🧱##Technology Stack
 Frontend
 
 Angular
@@ -54,7 +56,7 @@ Database
 
 MySQL
 
-Tools
+Tools & Platforms
 
 Maven
 
@@ -64,67 +66,43 @@ Postman
 
 Docker (optional)
 
-🗂️ Project Structure
+🗂️##Project Structure
 ecommerce-project/
-├── backend/   → Spring Boot REST API
-├── frontend/  → Angular frontend application
+├── backend/    → Spring Boot REST API
+├── frontend/   → Angular frontend application
 └── README.md
 
 
-Common build folders such as target/, node_modules/, and dist/ are excluded using .gitignore.
+Build-generated directories such as target/, node_modules/, and dist/ are excluded from version control using .gitignore.
 
-⚙️ How to Run the Project
-Backend (Spring Boot)
+⚙️##Application Setup & Execution
+#Backend (Spring Boot)
 
-Open the backend folder in your IDE
+Navigate to the backend directory
 
-Configure MySQL in application.properties:
+Configure database credentials in application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
 spring.datasource.username=root
 spring.datasource.password=your_password
 
 
-Run the Spring Boot application
+Run the Spring Boot application using your IDE or Maven
 
-Frontend (Angular)
+#Frontend (Angular)
 
-Open the frontend folder
+Navigate to the frontend directory
 
-Install dependencies:
+Install project dependencies:
 
 npm install
 
 
-Start the Angular server:
+Start the Angular development server:
 
 ng serve
-🔗 Sample API Endpoints
-Method	Endpoint	Description
-GET	/api/products	Fetch all products
-POST	/api/orders	Place an order
-GET	/api/orders/{id}	Fetch order details
-POST	/api/auth/login	User authentication
-🔐 Security
 
-Role-based access control (USER / ADMIN)
 
-Authentication and authorization using Spring Security
-
-Encrypted password storage
-
-📈 Future Enhancements
-
-JWT-based authentication
-
-Payment gateway integration
-
-Product reviews and ratings
-
-Docker-based deployment
-
-Cloud hosting
-
-Open in browser:
+Access the application at:
 
 http://localhost:4200
