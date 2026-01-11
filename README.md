@@ -1,72 +1,56 @@
-🛒 ##E-Commerce Web Application
+🛒**E-Commerce Web Application**
 
 Spring Boot | Angular | MySQL
 
-📌 #Overview
+📌 **Overview**
 
 This repository contains a full-stack E-Commerce web application developed using Spring Boot for the backend, Angular for the frontend, and MySQL as the relational database.
 
 The application is designed following industry-standard practices, with a clear separation of concerns, RESTful API communication, and secure data handling. It simulates core e-commerce workflows such as user authentication, product management, cart operations, and order processing.
 
-🚀 #Features
-User Functionality
+🚀** Features**
 
-Secure user registration and authentication
+ **User Functionality**
+-Secure user registration and authentication
+-rowse products by category
+-Add products to cart and manage cart items
+-Place orders and view order history
 
-Browse products by category
+**Admin Functionality**
 
-Add products to cart and manage cart items
-
-Place orders and view order history
-
-Admin Functionality
-
-Create, update, and delete products
-
-Manage product categories
+-Create, update, and delete products
+-Manage product categories
 
 View and manage customer orders
 
 Manage registered users
 
-🧱##Technology Stack
-Frontend
+🧱**Technology Stack**
 
-Angular
+**Frontend**
+-Angular
+-TypeScript
+-HTML5, CSS3
+-Bootstrap / Angular Material
 
-TypeScript
+**Backend**
 
-HTML5, CSS3
+-Spring Boot
+-Spring MVC
+-Spring Data JPA
+-Spring Security
+-RESTful APIs
 
-Bootstrap / Angular Material
+**Database**
+-MySQL
 
-Backend
+**Tools & Platforms**
+-Maven
+-Git & GitHub
+-Postman
+-Docker (optional)
 
-Spring Boot
-
-Spring MVC
-
-Spring Data JPA
-
-Spring Security
-
-RESTful APIs
-
-Database
-
-MySQL
-
-Tools & Platforms
-
-Maven
-
-Git & GitHub
-
-Postman
-
-Docker (optional)
-
-🗂️##Project Structure
+🗂️**Project Structure**
 ecommerce-project/
 ├── backend/    → Spring Boot REST API
 ├── frontend/   → Angular frontend application
@@ -75,8 +59,8 @@ ecommerce-project/
 
 Build-generated directories such as target/, node_modules/, and dist/ are excluded from version control using .gitignore.
 
-⚙️##Application Setup & Execution
-#Backend (Spring Boot)
+⚙️**Application Setup & Execution**
+**Backend (Spring Boot)**
 
 Navigate to the backend directory
 
@@ -89,13 +73,13 @@ spring.datasource.password=your_password
 
 Run the Spring Boot application using your IDE or Maven
 
-#Frontend (Angular)
+Frontend (Angular)
 
 Navigate to the frontend directory
 
 Install project dependencies:
 
-npm install
+npm instal
 
 
 Start the Angular development server:
