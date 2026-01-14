@@ -46,8 +46,8 @@ public class Order {
     private Set<OrderItem> orderItems = new HashSet<>();
 
     @ManyToOne
-    @JoinColumn(name = "customer_id")
-    private Customer customer;
+    @JoinColumn(name = "user_id")
+    private User user;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "shipping_address_id", referencedColumnName = "id")
@@ -70,9 +70,9 @@ public class Order {
         }
     }
 
-    public void setCustomer(Customer customer) {
-    this.customer = customer;
-}
+    public void setUser(User user) {
+        this.user = user;
+    }
 public void setOrderTrackingNumber(String orderTrackingNumber) {
     this.orderTrackingNumber = orderTrackingNumber;
 }
